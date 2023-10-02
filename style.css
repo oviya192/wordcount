@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(250, 229, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para textarea{
+    margin: 10px 0px;
+}
+
+.content{
+    height: 60vh;
+    width: 50%;
+    background-color: brown;
+    padding: 80px 110px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color:rgb(250, 229, 202);
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+p{
+    margin-left: 60px;
+}
+
+@media screen and (min-width:280px) and (max-width:991px){
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0px;
+        width: 100%;
+    }
+
+
+    .para textarea{
+        margin: 10px 0px;
+    }
+
+}
